@@ -1,0 +1,26 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    artii (2.1.2)
+    colorize (0.8.1)
+    deck-of-cards (0.0.7)
+    emoji (1.0.7)
+      json
+    gosu (0.14.3)
+    json (2.1.0)
+    taglib-ruby (0.7.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  artii
+  colorize
+  deck-of-cards
+  emoji
+  gosu
+  json
+  taglib-ruby
+
+BUNDLED WITH
+   1.16.6

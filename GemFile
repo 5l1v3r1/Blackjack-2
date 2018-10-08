@@ -1,0 +1,7 @@
+gem 'deck-of-cards'
+gem 'json'
+gem 'emoji'
+gem 'taglib-ruby'
+gem 'artii'
+gem 'gosu'
+gem 'colorize'
