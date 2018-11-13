@@ -1,1 +1,1 @@
-worker: ruby ./casino.rb
+ruby ./casino.rb
