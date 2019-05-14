@@ -16,13 +16,20 @@ class Casino
     @audio.playSound
     puts "\n\t 
             1) BlackJack\n
-            2) Quit
+            2) Recharge Amount\n
+            3) Quit
             "
       case gets.to_i
           when 1
             puts "BlackJack"
             BlackJack.new(@person)
           when 2
+            puts "Reacharge your Amount here"
+            puts "Enter the amount to recharge: "
+            amount = gets.strip.to_f
+            @person.bank += amount
+            puts "Your new balance is #{@person.bank}"
+          when 3
             puts "GoodBye! See you soon!!"
             exit
           else
